@@ -33,6 +33,23 @@ body {
   overflow: hidden;
 }
 
+.editor-container.collapsed {
+  flex-grow: 0;
+}
+
+.editor-container.collapsed .CodeMirror-scroll {
+  position: absolute;
+  overflow: hidden !important;
+}
+
+.expand-collapse-btn {
+  margin-left: .5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
 .CodeMirror {
   height: 100% !important;
   /* It will make sure that it will overide the default styles from the editor */
