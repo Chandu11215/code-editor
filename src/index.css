@@ -35,6 +35,7 @@ body {
 
 .CodeMirror {
   height: 100% !important;
+  /* It will make sure that it will overide the default styles from the editor */
 }
 
 .code-mirror-wrapper {
